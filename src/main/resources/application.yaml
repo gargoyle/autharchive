@@ -1,0 +1,19 @@
+app:
+    
+server:
+    port: 9091
+    host: 0.0.0.0
+#  experimental:
+#    http2:
+#      enable: true
+#      max-content-length: 16384
+
+database:
+    jdbcurl: "jdbc:mysql://localhost:3306/auth"
+    username: "dba"
+    password: "password"
+    
+jwt:
+    private-key: "private-key_2019.der"
+    public-key: "public-key_2019.der"
+    issuer: "uk.co.flxs"
